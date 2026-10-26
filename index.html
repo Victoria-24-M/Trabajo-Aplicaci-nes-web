@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!--  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="iconos/favicon.ico" type="image/x-icon">
+
+    <title>Mi Portafolio</title>
+</head>
+<body>
+   
+    <header class="navbar navbar-expand-lg bg-primary navbar-dark py-0 fixed-top">
+    <nav class="container">
+      <a class="navbar-brand" href="#">
+        <img src="imagenes/images.png" alt="Logo" class="d-inline-block align-text-middle logotipo">
+        Mi Portafolio
+      </a>
+      
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link" href="#inicio">inicio</a>
+          <a class="nav-link" href="#quien">¿Quién Soy?</a>
+          <a class="nav-link" href="#sobre">Sobre Mi </a>
+          <a class="nav-link" href="#vida">Vida personal</a>
+          <a class="nav-link" href="#ubicacion">Mi Lugar favorito</a>
+          <a class="nav-link" href="estudios.html">Mis Estudios</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <header id="inicio" class="position-relative w-100" style="height: 100vh; overflow: hidden;">
+    <img src="imagenes/f4.jpg" alt="Logotipo" id="logo" class="w-100 h-100" style="object-fit: cover;">
+    <section id="titulos" class="position-absolute top-50 start-50 translate-middle text-center text-white w-100 px-3">
+        <h4>Victoria Ramirez</h4>
+        <h1 id="tendencias" class="display-4 fw-bold texto-rosa my-2">Portafolio</h1>
+        <h3 class="fs-5">Aqui hablo sobre mi vida.</h3>
+    </section>
+</header>
+
+
+
+  <section id="quien" class="container py-5">
+    <div class="row">
+      <figure class="col-lg-4 col-md-8 offset-md-2 offset-lg-0">
+        <img src="imagenes/image.jpg" alt="foto"
+          class="img-fluid border border-primary border-2 w-75 d-block mx-auto">
+      </figure>
+      
+      <article class="col-lg-6 col-md-10 offset-md-1 offset-lg-0 text-center pt-lg-5">
+       <h1 class="display-4 fw-bold  texto-rosa">¿Quién Soy?</h1>
+
+        <p id="parrafo" class="collapse d-lg-block">Mi Nombre es Victoria Marisol Ramirez Delgado tengo 18 años y soy estudiante de Universidad 
+          tecnologica de leon actualmente estoy cursando 4to cuatrimestre de la carrera de Entornos Virtuales.
+          Soy tecnico medio superior en programacion ya que eso estudie en la preparatoria Cetac 10.
+        </p>
+        <a class="btn btn-primary d-lg-none" data-bs-toggle="collapse" href="#parrafo" role="button"
+          aria-expanded="false" aria-controls="collapseExample">
+          Leer más...
+        </a>
+      </article>
+    </div>
+  </section>
+
+
+   <section id="sobre" class="bg-primary text-center text-white py-5">
+    <article>
+      <img src="imagenes/Image (1).jpg" alt="Usuario" class="img-fluid rounded-circle d-none d-lg-inline mb-5 w-25">
+      <p class="fs-2">Sobre mi </p>
+      <p>Mi comida favorita son las enchiladas verdes y el pozole, mi color favorito el el azul manejo moto
+        y mi moto es una moto navi color rosa, mis papàs tienen un taller de zapato en el cual ayudo en mis tiempo
+        libres.
+      </p>
+      <span class="h5 fst-italic">- Victoria Ramirez</span>
+    </article>
+  </section>
+  
+  <section id="vida" class="py-5 container">
+    <h1 class="display-4 fw-bold text-center texto-rosa mb-5">Vida personal</h1>
+    <div class="row ">
+      <article class="col-10 offset-1 col-md-6 offset-md-0 col-lg-3 mb-3 mb-lg-0">
+        <div class="card">
+          <img src="imagenes/Image (3).jpg" class="card-img-top" alt="Mi Familia">
+          <div class="card-body ">
+            <h5 class="card-title fw-bold text-start text lg-center ">Mi Familia </h5>
+            <p class="card-text d-none d-lg-block text-center">A mi me gusta pasar tiempo en familia, convivo mucho con mis papas
+              y con mi hermana le tengo mucha confianza a mi familia.
+            </p>
+            <a href="#" class="btn btn-primary d-lg-none" data-bs-toggle="modal" data-bs-target="#proy_rv">Ver
+              Mas...</a>
+          </div>
+        </div>
+      </article>
+      <article class="col-10 offset-1 col-md-6 offset-md-0 col-lg-3 mb-3 mb-lg-0">
+        <div class="card">
+          <img src="imagenes/Image (2).jpg" class="card-img-top" alt="Mis mascotas">
+          <div class="card-body ">
+            <h5 class="card-title fw-bold text-start text lg-center ">Mis Mascotas</h5>
+            <p class="card-text d-none d-lg-block text-center">Tengo dos mascotas las cuales se llaman Negris y Conchis, ellas son mamà e hija.</p>
+            <a href="#" class="btn btn-primary d-lg-none" data-bs-toggle="modal" data-bs-target="#proy_rv">Ver
+              Mas...</a>
+          </div>
+        </div>
+      </article>
+      <article class="col-10 offset-1 col-md-6 offset-md-0 col-lg-3 mb-3 mb-lg-0">
+        <div class="card">
+          <img src="imagenes/deporte.jpg" class="card-img-top" alt="Deporte">
+          <div class="card-body ">
+            <h5 class="card-title fw-bold text-start text-lg-center ">Deporte Favorito</h5>
+            <p class="card-text d-none d-lg-block text-center">Actualmente practico el boxeo y es algo que me gusta mucho,
+               pero antes jugaba futbol, jugaba desde pequeña pero ya no lo disfrutaba.</p>
+            <a href="#" class="btn btn-primary d-lg-none" data-bs-toggle="modal" data-bs-target="#proy_rv">Ver
+              Mas...</a>
+          </div>
+        </div>
+      </article>
+      <article class="col-10 offset-1 col-md-6 offset-md-0 col-lg-3 mb-3 mb-lg-0">
+        <div class="card">
+          <img src="imagenes/musica.jpg" class="card-img-top" alt="musica">
+          <div class="card-body ">
+            <h5 class="card-title fw-bold text-start text-lg-center ">Musica Favorita</h5>
+            <p class="card-text d-none d-lg-block text-center">La musica que escucho es variada por que escucho musica de 
+              todos los generos aun que me gusta escuchar a Junior h y Kenia os.</p>
+            <a href="#" class="btn btn-primary d-lg-none" data-bs-toggle="modal" data-bs-target="#proy_rv">Ver
+              Mas...</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+ <section id="ubicacion" class="container-fluid bg-primary pt-2 pt-lg-5 pb-3 text-center">
+    <h1 class="display-4 fw-bold text-center pb-3 d-none d-lg-block texto-rosa">Mi Lugar Favorito</h1>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3801.8974610391883!2d-101.60279498989578!3d17.655014883208796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84347689c2686369%3A0xe472daed953b0713!2sPlaya%20El%20Palmar!5e0!3m2!1ses-419!2smx!4v1792903904498!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    
+</section>
+        
+
+
+
+
+<footer class='container-fluid bg-dark text-white text-center'>
+    <p class='py-3 h5'>copyright 2026 - Victoria Marisol Ramirez Delgado</p>
+  </footer>
+
+
+</body>
+</html>
